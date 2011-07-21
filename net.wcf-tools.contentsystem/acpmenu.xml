@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<!DOCTYPE data SYSTEM "http://www.woltlab.com/DTDs/acpMenu.dtd">
+<data>	
+	<import>
+		<acpmenuitem name="wcf.acp.menu.link.content.contentsystem">
+			<parent>wcf.acp.menu.link.content</parent>
+			<showorder>1</showorder>
+			<permissions>admin.content.contentsystem.canEdit,admin.content.contentsystem.canAdd</permissions>
+		</acpmenuitem>
+		
+		<acpmenuitem name="wcf.acp.menu.link.content.contentsystem.view">
+			<parent>wcf.acp.menu.link.content.contentsystem</parent>
+			<showorder>1</showorder>
+			<link>index.php?page=ContentList</link>
+			<permissions>admin.content.contentsystem.canEdit,admin.content.contentsystem.canAdd</permissions>
+		</acpmenuitem>
+		
+		<acpmenuitem name="wcf.acp.menu.link.content.contentsystem.add">
+			<parent>wcf.acp.menu.link.content.contentsystem</parent>
+			<showorder>2</showorder>
+			<link>index.php?form=ContentAdd</link>
+			<permissions>admin.content.contentsystem.canAdd</permissions>			
+		</acpmenuitem>
+	</import>
+</data>

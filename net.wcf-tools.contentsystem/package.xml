@@ -1,0 +1,37 @@
+<?xml version="1.0"?>
+<package name="net.wcf-tools.contentsystem" xmlns="http://www.woltlab.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.woltlab.com/XSD/package.xsd">
+	<packageinformation>
+		<packagename>Content System</packagename>
+		<packagedescription>Content System mit Menu- und Inhaltsverwaltung zur Installation in Standalone Applications</packagedescription>
+		<version>1.0.10</version>
+		<date>2011-07-20</date>
+	</packageinformation>
+	
+	<authorinformation>
+		<author>Patrick Bauer</author>
+		<authorurl>http://www.wcf-tools.net/</authorurl>
+	</authorinformation>
+	
+	<requiredpackages>
+		<requiredpackage>com.woltlab.wcf</requiredpackage>
+	</requiredpackages>
+
+	<instructions type="install">
+		<languages languagecode="de">de.xml</languages>
+		<acptemplates>acptemplates.tar</acptemplates>
+		<files>files.tar</files>
+		<templates>templates.tar</templates>
+		<groupoptions>groupoptions.xml</groupoptions>
+		<acpmenu>acpmenu.xml</acpmenu>
+		<sql>install.sql</sql>
+	</instructions>
+
+	<instructions type="update" fromversion="*">
+		<languages languagecode="de">de.xml</languages>
+		<acptemplates>acptemplates.tar</acptemplates>
+		<files>files.tar</files>
+		<templates>templates.tar</templates>
+		<groupoptions>groupoptions.xml</groupoptions>
+		<acpmenu>acpmenu.xml</acpmenu>
+	</instructions>
+</package>

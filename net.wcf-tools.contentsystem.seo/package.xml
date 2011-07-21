@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<!DOCTYPE package SYSTEM "http://www.woltlab.com/DTDs/package.dtd">
+<package name="net.wcf-tools.contentsystem.seo">
+	<packageinformation>
+		<packagename>Content System SEO</packagename>
+		<packagedescription>SEO für das Content System</packagedescription>
+		<version>1.0.0</version>
+		<date>2011-04-22</date>
+		<plugin>net.wcf-tools.contentsystem</plugin>
+	</packageinformation>
+	
+	<authorinformation>
+		<author>Patrick Bauer</author>
+		<authorurl>http://www.wcf-tools.net/</authorurl>
+	</authorinformation>
+	
+	<requiredpackages>
+		<requiredpackage>net.wcf-tools.seo</requiredpackage>
+	</requiredpackages>
+
+	<instructions type="install">
+		<eventlistener>eventlistener.xml</eventlistener>
+		<files>files.tar</files>
+		<seo>seoitems.xml</seo>
+	</instructions>
+
+	<instructions type="update" fromversion="*">
+		<eventlistener>eventlistener.xml</eventlistener>
+		<files>files.tar</files>
+		<seo>seoitems.xml</seo>
+	</instructions>
+
+</package>

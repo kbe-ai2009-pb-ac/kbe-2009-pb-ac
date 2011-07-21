@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<!DOCTYPE data SYSTEM "http://www.woltlab.com/DTDs/eventListeners.dtd">
+<data>	
+	<import>
+		<eventlistener>
+			<eventClassName>Template</eventClassName>
+			<eventName>shouldDisplay</eventName>
+			<inherit>1</inherit>
+			<listenerClassFile>lib/system/event/listener/ContentSystemSEOListener.class.php</listenerClassFile>
+		</eventlistener>
+	</import>
+</data>

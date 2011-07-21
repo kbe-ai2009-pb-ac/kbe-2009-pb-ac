@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE language SYSTEM "http://www.woltlab.com/DTDs/language.dtd">
+<language languagecode="de">
+
+	<category name="wcf.acp.menu">
+		<item name="wcf.acp.menu.link.content.contentsystem"><![CDATA[Seiten]]></item>
+		<item name="wcf.acp.menu.link.content.contentsystem.view"><![CDATA[Seiten verwalten]]></item>
+		<item name="wcf.acp.menu.link.content.contentsystem.add"><![CDATA[Seite hinzufügen]]></item>
+		<item name="wcf.acp.menu.link.content.contentsystem.edit"><![CDATA[Seite bearbeiten]]></item>
+	</category>
+	
+	<category name="wcf.acp.group">
+		<item name="wcf.acp.group.option.category.admin.content.contentsystem"><![CDATA[Seiten]]></item>
+		<item name="wcf.acp.group.option.category.admin.content.contentsystem.description"><![CDATA[]]></item>
+		
+		<item name="wcf.acp.group.option.admin.content.contentsystem.canAdd"><![CDATA[Kann Seiten anlegen]]></item>
+		<item name="wcf.acp.group.option.admin.content.contentsystem.canAdd.description"><![CDATA[Mitglieder dieser Benutzergruppe können neue Seiten anlegen.]]></item>
+		<item name="wcf.acp.group.option.admin.content.contentsystem.canEdit"><![CDATA[Kann Seiten bearbeiten]]></item>
+		<item name="wcf.acp.group.option.admin.content.contentsystem.canEdit.description"><![CDATA[Mitglieder dieser Benutzergruppe können angelegte Seiten bearbeiten.]]></item>
+		<item name="wcf.acp.group.option.admin.content.contentsystem.canPublish"><![CDATA[Kann Seiten veröffentlichen]]></item>
+		<item name="wcf.acp.group.option.admin.content.contentsystem.canPublish.description"><![CDATA[Mitglieder dieser Benutzergruppe können angelegte Seiten veröffentlichen.]]></item>
+		<item name="wcf.acp.group.option.admin.content.contentsystem.canDelete"><![CDATA[Kann Seiten löschen]]></item>
+		<item name="wcf.acp.group.option.admin.content.contentsystem.canDelete.description"><![CDATA[Mitglieder dieser Benutzergruppe können angelegte Seiten löschen.]]></item>
+	</category>
+	
+	<category name="wcf.acp.contentsystem">
+		<item name="wcf.acp.contentsystem.general"><![CDATA[Allgemein]]></item>
+		
+		<item name="wcf.acp.contentsystem.contentID"><![CDATA[ID]]></item>
+		<item name="wcf.acp.contentsystem.time"><![CDATA[Erstellt am]]></item>
+		<item name="wcf.acp.contentsystem.username"><![CDATA[Erstellt von]]></item>
+		<item name="wcf.acp.contentsystem.title"><![CDATA[Titel]]></item>
+		<item name="wcf.acp.contentsystem.title.description"><![CDATA[]]></item>
+		<item name="wcf.acp.contentsystem.content"><![CDATA[Text]]></item>
+		<item name="wcf.acp.contentsystem.content.description"><![CDATA[]]></item>
+		<item name="wcf.acp.contentsystem.url"><![CDATA[Externe URL]]></item>
+		<item name="wcf.acp.contentsystem.url.description"><![CDATA[]]></item>
+		<item name="wcf.acp.contentsystem.releaseDate"><![CDATA[Veröffentlichung]]></item>
+		<item name="wcf.acp.contentsystem.releaseDate.description"><![CDATA[]]></item>
+		<item name="wcf.acp.contentsystem.active"><![CDATA[aktiviert]]></item>
+		<item name="wcf.acp.contentsystem.inactive"><![CDATA[deaktiviert]]></item>
+		<item name="wcf.acp.contentsystem.activate"><![CDATA[aktivieren]]></item>
+		<item name="wcf.acp.contentsystem.deactivate"><![CDATA[deaktivieren]]></item>
+		<item name="wcf.acp.contentsystem.invisible"><![CDATA[Unsichtbar]]></item>
+		<item name="wcf.acp.contentsystem.invisible.description"><![CDATA[Diese Seite erscheint nicht im Menu oder in anderen Auflistungen]]></item>
+		<item name="wcf.acp.contentsystem.contentType"><![CDATA[Seiten-Typ]]></item>
+		<item name="wcf.acp.contentsystem.error.contentType.invalid"><![CDATA[Bitte wählen Sie einen Seiten-Typ]]></item>
+		<item name="wcf.acp.contentsystem.contentType.0"><![CDATA[Seite]]></item>
+		<item name="wcf.acp.contentsystem.contentType.1"><![CDATA[Weiterleitung]]></item>
+		<item name="wcf.acp.contentsystem.position"><![CDATA[Position]]></item>
+		<item name="wcf.acp.contentsystem.position.description"><![CDATA[Position innerhalb des Struktur-Baumes]]></item>
+		<item name="wcf.acp.contentsystem.parentID"><![CDATA[Übergeordnete Seite]]></item>
+		<item name="wcf.acp.contentsystem.parentID.description"><![CDATA[]]></item>
+		<item name="wcf.acp.contentsystem.parentID.error.invalid"><![CDATA[Die gewählte Seite ist ungültig]]></item>
+		
+		<item name="wcf.acp.contentsystem.add.success"><![CDATA[Die Seite wurde erfolgreich eingetragen.]]></item>
+		<item name="wcf.acp.contentsystem.edit"><![CDATA[Seite bearbeiten]]></item>
+		<item name="wcf.acp.contentsystem.edit.success"><![CDATA[Die Seite wurde erfolgreich bearbeitet.]]></item>
+		<item name="wcf.acp.contentsystem.sort.success"><![CDATA[Die Seitenstruktur wird gespeicher...]]></item>
+		<item name="wcf.acp.contentsystem.sort.success"><![CDATA[Die Seitenstruktur wurde erfolgreich gespeichert.]]></item>
+		<item name="wcf.acp.contentsystem.delete"><![CDATA[Seite löschen]]></item>
+		<item name="wcf.acp.contentsystem.delete.sure"><![CDATA[Sind Sie sicher, dass sie diese Seite unwiederruflich löschen wollen?]]></item>
+		<item name="wcf.acp.contentsystem.view.count"><![CDATA[Insgesamt {#$items} Seiten]]></item>	
+	</category>
+</language>

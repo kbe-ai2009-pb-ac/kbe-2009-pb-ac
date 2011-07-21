@@ -1,0 +1,34 @@
+<?xml version="1.0"?>
+<!DOCTYPE data SYSTEM "http://www.woltlab.com/DTDs/options.dtd">
+<data>	
+	<import>
+		<categories>
+			<category name="admin.content.contentsystem">
+				<parent>admin.content</parent>
+			</category>
+		</categories>
+			
+		<options>
+			<option name="admin.content.contentsystem.canAdd">
+				<categoryname>admin.content.contentsystem</categoryname>
+				<optiontype>boolean</optiontype>
+				<defaultvalue>1</defaultvalue>
+			</option>
+			<option name="admin.content.contentsystem.canEdit">
+				<categoryname>admin.content.contentsystem</categoryname>
+				<optiontype>boolean</optiontype>
+				<defaultvalue>1</defaultvalue>
+			</option>
+			<option name="admin.content.contentsystem.canPublish">
+				<categoryname>admin.content.contentsystem</categoryname>
+				<optiontype>boolean</optiontype>
+				<defaultvalue>1</defaultvalue>
+			</option>
+			<option name="admin.content.contentsystem.canDelete">
+				<categoryname>admin.content.contentsystem</categoryname>
+				<optiontype>boolean</optiontype>
+				<defaultvalue>1</defaultvalue>
+			</option>
+		</options>
+	</import>
+</data>

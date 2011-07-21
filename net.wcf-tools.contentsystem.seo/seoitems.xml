@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<data>	
+	<import>
+		<seoitem>
+			<className>ContentSEO</className>
+			<classFile>lib/system/seo/items/ContentSEO.class.php</classFile>
+		</seoitem>
+	</import>
+</data>

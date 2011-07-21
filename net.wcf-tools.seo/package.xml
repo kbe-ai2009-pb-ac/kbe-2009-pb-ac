@@ -1,0 +1,36 @@
+<?xml version="1.0"?>
+<package name="net.wcf-tools.seo" xmlns="http://www.woltlab.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.woltlab.com/XSD/package.xsd">
+	<packageinformation>
+		<packagename>SEO Main Component</packagename>
+		<packagedescription>SEO Komponente</packagedescription>
+		<version>1.0.0</version>
+		<date>2011-07-20</date>
+		<plugin>com.woltlab.wcf</plugin>
+		<isunique>1</isunique>
+	</packageinformation>
+	
+	<authorinformation>
+		<author>Patrick Bauer</author>
+		<authorurl>http://www.wcf-tools.net/</authorurl>
+	</authorinformation>
+
+	<instructions type="install">
+		<files>files.tar</files>
+		<options>options.xml</options>
+		<acptemplates>acptemplates.tar</acptemplates>
+		<acpmenu>acpmenu.xml</acpmenu>
+		<languages languagecode="de">de.xml</languages>
+		<packageinstallationplugins>pip.tar</packageinstallationplugins>
+		<sql>install.sql</sql>
+	</instructions>
+
+	<instructions type="update" fromversion="*">
+		<files>files.tar</files>
+		<options>options.xml</options>
+		<acptemplates>acptemplates.tar</acptemplates>
+		<acpmenu>acpmenu.xml</acpmenu>
+		<languages languagecode="de">de.xml</languages>
+		<packageinstallationplugins>pip.tar</packageinstallationplugins>
+	</instructions>
+
+</package>

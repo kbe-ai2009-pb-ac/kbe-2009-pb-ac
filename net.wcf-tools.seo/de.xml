@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE language SYSTEM "http://www.woltlab.com/DTDs/language.dtd">
+<language languagecode="de">
+
+	<category name="wcf.acp.option">
+		<item name="wcf.acp.option.module_seo"><![CDATA[SEO System]]></item>
+		<item name="wcf.acp.option.module_seo.description"><![CDATA[]]></item>
+	</category>
+	
+	<category name="wcf.acp.menu">
+		<item name="wcf.acp.menu.link.content.seo"><![CDATA[SEO Optionen]]></item>
+	</category>
+</language>
